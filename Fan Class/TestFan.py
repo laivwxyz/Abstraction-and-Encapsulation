@@ -5,7 +5,7 @@ from termcolor import colored
 # import class Fan from ClassFan.py
 from ClassFan import Fan
 
-f = Figlet(font='serifcap', width = 140)
+f = Figlet(font='serifcap', width = 145)
 print(colored(f.renderText("Program output: "), 'light_cyan'))
 
 def test_fan():
@@ -18,7 +18,7 @@ def test_fan():
     fan1.get_radius()
     fan1.set_radius(10)
     fan1.get_color()
-    fan1.set_color("Yellow")
+    fan1.set_color('Yellow')
 
     # Create the second Fan object
     fan2 = Fan()
@@ -29,7 +29,7 @@ def test_fan():
     fan2.get_radius()
     fan2.set_radius(5)
     fan2.get_color()
-    fan2.set_color("Blue")
+    fan2.set_color('Blue')
 
     # Display the First Fan information
     print(" " * 25, "\033[92m<", " " * 5, "First Fan", " " * 5, "\033[92m>")
