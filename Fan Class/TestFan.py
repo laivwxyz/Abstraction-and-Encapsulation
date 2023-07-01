@@ -50,3 +50,6 @@ def test_fan():
     print(" " * 30, "\033[93mOn:", "\033[0m", fan2.get_on())
     print()
     print()
+
+# Run the test_fan function
+test_fan()
