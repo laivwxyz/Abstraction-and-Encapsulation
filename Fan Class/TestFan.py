@@ -1,5 +1,12 @@
+# Add designs to the program
+from pyfiglet import Figlet
+from termcolor import colored
+
 # import class Fan from ClassFan.py
 from ClassFan import Fan
+
+f = Figlet(font='serifcap', width = 140)
+print(colored(f.renderText("Program output: "), 'light_cyan'))
 
 def test_fan():
     # Create the first Fan object
@@ -25,15 +32,21 @@ def test_fan():
     fan2.set_color("Blue")
 
     # Display the First Fan information
-    print("First Fan")
-    print("Speed:" , fan1.get_speed())
-    print("Radius:" , fan1.get_radius())
-    print("Color:" , fan1.get_color())
-    print("On:", fan1.get_on())
+    print(" " * 25, "\033[92m<", " " * 5, "First Fan", " " * 5, "\033[92m>")
+    print()
+    print(" " * 30, "\033[93mSpeed:" , "\033[0m", fan1.get_speed())
+    print(" " * 30, "\033[93mRadius:" , "\033[0m", fan1.get_radius())
+    print(" " * 30, "\033[93mColor:" , "\033[0m", fan1.get_color())
+    print(" " * 30, "\033[93mOn:", "\033[0m", fan1.get_on())
+    print()
+    print()
 
     # Display the Second Fan information
-    print("Second Fan")
-    print("Speed:" , fan2.get_speed())
-    print("Radius:" , fan2.get_radius())
-    print("Color:" , fan2.get_color())
-    print("On:", fan2.get_on())
+    print(" " * 25, "\033[92m<", " " * 5, "Second Fan", " " * 5, "\033[92m>")
+    print()
+    print(" " * 30, "\033[93mSpeed:" , "\033[0m", fan2.get_speed())
+    print(" " * 30, "\033[93mRadius:" , "\033[0m", fan2.get_radius())
+    print(" " * 30, "\033[93mColor:" , "\033[0m", fan2.get_color())
+    print(" " * 30, "\033[93mOn:", "\033[0m", fan2.get_on())
+    print()
+    print()
