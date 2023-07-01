@@ -28,3 +28,7 @@ class Fan:
     # Create mutator (setter) method for on
     def set_on(self, on):
         self.__on = on
+
+    # Create accessor (getter) method for radius
+    def get_radius(self):
+        return self.__radius
