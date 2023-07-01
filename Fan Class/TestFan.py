@@ -30,3 +30,10 @@ def test_fan():
     print("Radius:" , fan1.get_radius())
     print("Color:" , fan1.get_color())
     print("On:", fan1.get_on())
+
+    # Display the Second Fan information
+    print("Second Fan")
+    print("Speed:" , fan2.get_speed())
+    print("Radius:" , fan2.get_radius())
+    print("Color:" , fan2.get_color())
+    print("On:", fan2.get_on())
