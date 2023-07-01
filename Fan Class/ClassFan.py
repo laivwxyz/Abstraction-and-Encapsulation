@@ -20,3 +20,7 @@ class Fan:
     # Create mutator (setter) method for speed
     def set_speed(self, speed):
         self.__speed = speed
+
+    # Create accessor (getter) method for on
+    def get_on(self):
+        return self.__on
