@@ -32,3 +32,7 @@ class Fan:
     # Create accessor (getter) method for radius
     def get_radius(self):
         return self.__radius
+    
+    # Create mutator (setter) method for radius
+    def set_radius(self, radius):
+        self.__radius = radius
