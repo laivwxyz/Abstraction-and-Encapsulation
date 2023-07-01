@@ -1,5 +1,6 @@
+![Screenshot (680)](https://github.com/laivwxyz/Abstraction-and-Encapsulation/assets/129714181/4aade213-c9fd-44f8-910c-6e6c723d8825)
 
-The Fan class represents a fan and provides methods to control its properties such as speed, on/off state, radius, and color.
+The `Fan` class represents a fan and provides methods to control its properties such as speed, on/off state, radius, and color.
 
 ## GETTING STARTED
 
@@ -9,7 +10,7 @@ To run this script, you need to have Python installed on your system.
 
 ## Class Description
 
-The Fan class has the following components:
+The `Fan` class has the following components:
 
 ### Constants
 
@@ -41,11 +42,13 @@ The Fan class provides the following methods:
 
 ## Test Program
 
-The test program, `TestFan.py`, demonstrates the usage of the Fan class by creating two Fan objects with different properties and displaying their attributes.
+The test program, `TestFan.py`, demonstrates the usage of the `Fan` class by creating two `Fan` objects with different properties and displaying their attributes.
 
 ### Sample Output
 
-The output of the test program will display the speed, radius, color, and on properties of the Fan objects.
+The output of the test program will display the speed, radius, color, and on properties of the `Fan` objects.
+
+![Screenshot (678)](https://github.com/laivwxyz/Abstraction-and-Encapsulation/assets/129714181/277eef7d-479c-4e22-b0ea-e1e722871354)
 
 ## Running the Program
 
@@ -55,7 +58,7 @@ The output of the test program will display the speed, radius, color, and on pro
 
 - Open your terminal or command prompt and navigate to the directory where the files are located.
 
-- Run the test program by executing the command: python TestFan.py.
+- Run the test program by executing the command: python `TestFan.py`.
 
 - The output will be displayed in the terminal.
 
