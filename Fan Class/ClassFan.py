@@ -24,3 +24,7 @@ class Fan:
     # Create accessor (getter) method for on
     def get_on(self):
         return self.__on
+    
+    # Create mutator (setter) method for on
+    def set_on(self, on):
+        self.__on = on
