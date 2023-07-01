@@ -23,3 +23,10 @@ def test_fan():
     fan2.set_radius(5)
     fan2.get_color()
     fan2.set_color("Blue")
+
+    # Display the First Fan information
+    print("First Fan")
+    print("Speed:" , fan1.get_speed())
+    print("Radius:" , fan1.get_radius())
+    print("Color:" , fan1.get_color())
+    print("On:", fan1.get_on())
