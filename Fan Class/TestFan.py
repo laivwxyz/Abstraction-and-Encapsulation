@@ -12,3 +12,14 @@ def test_fan():
     fan1.set_radius(10)
     fan1.get_color()
     fan1.set_color("Yellow")
+
+    # Create the second Fan object
+    fan2 = Fan()
+    fan2.get_speed()
+    fan2.set_speed(Fan.MEDIUM)
+    fan2.get_on()
+    fan2.set_on(False)
+    fan2.get_radius()
+    fan2.set_radius(5)
+    fan2.get_color()
+    fan2.set_color("Blue")
