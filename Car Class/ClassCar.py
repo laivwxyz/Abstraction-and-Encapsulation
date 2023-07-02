@@ -26,3 +26,7 @@ class Car:
     # Create accessor (getter) method for speed 
     def get_speed(self):
         return self.__speed
+    
+    # Create mutator (setter) method for speed
+    def set_speed(self, speed):
+        self.__speed = speed 
