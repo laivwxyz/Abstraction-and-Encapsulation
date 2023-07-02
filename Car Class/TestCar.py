@@ -13,3 +13,11 @@ def test_car():
     for _ in range(5):
         car.accelerate()
         print("Current speed:", car.get_speed())
+
+    # Call the brake method five times and display the current speed
+    print("Brake")
+    print("Car year model: ", car.get_year_model())
+    print("Car is made of: ", car.get_make())
+    for _ in range(5):
+        car.brake()
+        print("Current speed:", car.get_speed())
