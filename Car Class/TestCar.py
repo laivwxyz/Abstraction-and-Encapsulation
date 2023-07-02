@@ -22,3 +22,6 @@ def test_car():
     for _ in range(5):
         car.brake()
         print("Current speed:", car.get_speed())
+
+# Run the test_fan function
+test_car()
