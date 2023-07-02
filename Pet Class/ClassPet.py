@@ -14,3 +14,7 @@ class Pet:
     # Create mutator (setter) method for name
     def set_name(self, name):
         self.__name = name
+
+    # Create accessor (getter) method for animal type
+    def get_animal_type(self):
+        return self.__animal_type
