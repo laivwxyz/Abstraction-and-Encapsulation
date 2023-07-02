@@ -1,3 +1,11 @@
+# Add design in the program 
+from termcolor import colored
+from pyfiglet import Figlet
+
+f = Figlet(font = 'isometric3', width = 240)
+print(colored(f.renderText(' Pet Class'), 'light_green'))
+print(colored('=' * 135, 'light_green'))
+
 # Create a class named Pet
 class Pet:
     # Create constructor that creates a Pet with the specified name, animal type, and age

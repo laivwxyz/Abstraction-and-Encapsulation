@@ -6,7 +6,7 @@ from termcolor import colored
 from ClassFan import Fan
 
 f = Figlet(font='serifcap', width = 145)
-print(colored(f.renderText("Program output: "), 'light_cyan'))
+print(colored(f.renderText("                   Program output: "), 'light_cyan'))
 
 def test_fan():
     # Create the first Fan object
@@ -32,22 +32,22 @@ def test_fan():
     fan2.set_color('Blue')
 
     # Display the First Fan information
-    print(" " * 25, "\033[92m<", " " * 5, "First Fan", " " * 5, "\033[92m>")
+    print(" " * 65, "\033[92m<", " " * 5, "First Fan", " " * 5, "\033[92m>")
     print()
-    print(" " * 30, "\033[93mSpeed:" , "\033[0m", fan1.get_speed())
-    print(" " * 30, "\033[93mRadius:" , "\033[0m", fan1.get_radius())
-    print(" " * 30, "\033[93mColor:" , "\033[0m", fan1.get_color())
-    print(" " * 30, "\033[93mOn:", "\033[0m", fan1.get_on())
+    print(" " * 70, "\033[93mSpeed:" , "\033[0m", fan1.get_speed())
+    print(" " * 70, "\033[93mRadius:" , "\033[0m", fan1.get_radius())
+    print(" " * 70, "\033[93mColor:" , "\033[0m", fan1.get_color())
+    print(" " * 70, "\033[93mOn:", "\033[0m", fan1.get_on())
     print()
     print()
 
     # Display the Second Fan information
-    print(" " * 25, "\033[92m<", " " * 5, "Second Fan", " " * 5, "\033[92m>")
+    print(" " * 65, "\033[92m<", " " * 5, "Second Fan", " " * 5, "\033[92m>")
     print()
-    print(" " * 30, "\033[93mSpeed:" , "\033[0m", fan2.get_speed())
-    print(" " * 30, "\033[93mRadius:" , "\033[0m", fan2.get_radius())
-    print(" " * 30, "\033[93mColor:" , "\033[0m", fan2.get_color())
-    print(" " * 30, "\033[93mOn:", "\033[0m", fan2.get_on())
+    print(" " * 70, "\033[93mSpeed:" , "\033[0m", fan2.get_speed())
+    print(" " * 70, "\033[93mRadius:" , "\033[0m", fan2.get_radius())
+    print(" " * 70, "\033[93mColor:" , "\033[0m", fan2.get_color())
+    print(" " * 70, "\033[93mOn:", "\033[0m", fan2.get_on())
     print()
     print()
 
