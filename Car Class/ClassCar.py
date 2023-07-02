@@ -1,3 +1,11 @@
+# Add design in the program 
+from termcolor import colored
+from pyfiglet import Figlet
+
+f = Figlet(font = 'isometric3', width = 240)
+print(colored(f.renderText(' Car Class'), 'light_blue'))
+print(colored('=' * 140, 'light_blue'))
+
 # Create a class named Car
 class Car:
     # Create constructor that creates a car with the specified year model, make and speed
