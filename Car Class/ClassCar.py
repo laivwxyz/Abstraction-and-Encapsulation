@@ -30,3 +30,7 @@ class Car:
     # Create mutator (setter) method for speed
     def set_speed(self, speed):
         self.__speed = speed 
+    
+    # Create accelerate method
+    def accelerate(self):
+        self.__speed += 5
