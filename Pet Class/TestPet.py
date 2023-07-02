@@ -9,3 +9,9 @@ def test_pet():
     age = input("Enter the age of your pet: ")
 
     pet = Pet(name, animal_type, age)
+
+    # Display the pet details 
+    print("Pet Details:")
+    print("Name:", pet.get_name())
+    print("Animal Type:", pet.get_animal_type())
+    print("Age:", pet.get_age())
