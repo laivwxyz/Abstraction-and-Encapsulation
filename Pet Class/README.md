@@ -1,3 +1,5 @@
+![Screenshot (690)](https://github.com/laivwxyz/Abstraction-and-Encapsulation/assets/129714181/1b748ac2-d209-4b46-8d95-de0e453242c3)
+
 The `Pet` class represents a pet and provides methods to set and retrieve its name, animal type, and age.
 
 ## Class Description
@@ -49,6 +51,8 @@ To run this program, you need to have Python installed on your system.
 ### Sample Output
 
 The output of the test program will display the name, animal type, and age of the `Pet` objects.
+
+![Screenshot (690-1)](https://github.com/laivwxyz/Abstraction-and-Encapsulation/assets/129714181/c9ab2355-452a-4efb-b275-79dcde2edfb4)
 
 ## CONTRIBUTE
 
