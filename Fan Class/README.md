@@ -4,6 +4,10 @@ The `Fan` class represents a fan and provides methods to control its properties 
 
 ## GETTING STARTED
 
+### PREREQUISITES
+
+To run this script, you need to have Python installed on your system.
+
 ## Class Description
 
 The `Fan` class has the following components:
@@ -35,10 +39,6 @@ The Fan class provides the following methods:
 - `turn_on()`: Turns on the fan.
 
 - `turn_off()`: Turns off the fan.
-
-### PREREQUISITES
-
-To run this script, you need to have Python installed on your system.
 
 ## Test Program
 
