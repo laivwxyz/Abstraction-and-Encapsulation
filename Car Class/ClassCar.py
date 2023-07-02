@@ -6,3 +6,7 @@ class Car:
         self.__year_model = year_model
         self.__make = make
         self.__speed = speed
+
+    # Create accessor (getter) method for year model
+    def get_year_model(self):
+        return self.__year_model
