@@ -2,3 +2,7 @@
 class Pet:
     # Create constructor that creates a Pet with the specified name, animal type, and age
     def __init__(self, name, animal_type, age):
+        # Create instance variable 
+        self.__name = name
+        self.__animal_type = animal_type
+        self.__age = age
