@@ -2,7 +2,7 @@
 
 The `Fan` class represents a fan and provides methods to control its properties such as speed, on, radius, and color.
 
-## GETTING STARTED
+## Getting Started
 
 ### PREREQUISITES
 
