@@ -10,3 +10,7 @@ class Car:
     # Create accessor (getter) method for year model
     def get_year_model(self):
         return self.__year_model
+    
+    # Create mutator (setter) method for year model
+    def set_year_model(self, year_model): 
+        self.__year_model = year_model
