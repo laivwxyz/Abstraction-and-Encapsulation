@@ -1,4 +1,4 @@
-# Add designs in the program 
+# Add designs to the program 
 from termcolor import colored
 from pyfiglet import Figlet
 
