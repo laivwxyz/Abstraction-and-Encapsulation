@@ -18,7 +18,7 @@ def test_car():
     print(" " * 57, "\033[92mCar year model: ", "\033[0m", car.get_year_model())
     print(" " * 57, "\033[92mCar is made of: ", "\033[0m", car.get_make())
     print()
-    print(" " * 62, "\033[95m<","Speed", "\033[95m>")
+    print(" " * 62, "\033[95m<","Car Speed", "\033[95m>")
     print()
     for _ in range(5):
         car.accelerate()
@@ -32,7 +32,7 @@ def test_car():
     print(" " * 56, "\033[92mCar year model: ", "\033[0m", car.get_year_model())
     print(" " * 56, "\033[92mCar is made of: ", "\033[0m", car.get_make())
     print()
-    print(" " * 63, "\033[95m<","Speed", "\033[95m>")
+    print(" " * 62, "\033[95m<","Car Speed", "\033[95m>")
     print()
     for _ in range(5):
         car.brake()
