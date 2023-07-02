@@ -22,3 +22,7 @@ class Pet:
     # Create mutator (setter) method for animal type
     def set_animal_type(self, animal_type):
         self.__animal_type = animal_type
+
+    # Create accessor (getter) method for age
+    def get_age(self):
+        return self.__age
