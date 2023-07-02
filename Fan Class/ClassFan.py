@@ -1,3 +1,11 @@
+# Add design in the program 
+from termcolor import colored
+from pyfiglet import Figlet
+
+f = Figlet(font = 'isometric3', width = 240)
+print(colored(f.renderText(' The Fan Class'), 'light_red'))
+print(colored('=' * 185, 'light_red'))
+
 # Create a class named Fan 
 class Fan:
     # Create constant to denote the fan speed 
