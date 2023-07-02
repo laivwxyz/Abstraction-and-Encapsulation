@@ -27,7 +27,7 @@ The class provides the following methods:
 
 The program creates a `Car` object and calls the `accelerate` method five times. After each call, it retrieves the current speed and displays it. Then, it calls the `brake` method five times, retrieves the current speed, and displays it.
 
-## GETTING STARTED
+## Getting Started
 
 ### Prerequisites
 
