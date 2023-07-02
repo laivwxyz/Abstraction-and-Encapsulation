@@ -18,3 +18,7 @@ class Car:
     # Create accessor (getter) method for make
     def get_make(self):
         return self.__make
+    
+    # Create mutator (setter) method for make
+    def set_make(self, make):
+        self.__make = make 
