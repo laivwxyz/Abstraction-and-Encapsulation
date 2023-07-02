@@ -22,3 +22,7 @@ class Car:
     # Create mutator (setter) method for make
     def set_make(self, make):
         self.__make = make 
+    
+    # Create accessor (getter) method for speed 
+    def get_speed(self):
+        return self.__speed
