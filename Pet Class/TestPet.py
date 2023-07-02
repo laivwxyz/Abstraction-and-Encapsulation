@@ -7,3 +7,5 @@ def test_pet():
     name = input("Enter the name of your pet: ")
     animal_type = input("Enter the type of animal: ")
     age = input("Enter the age of your pet: ")
+
+    pet = Pet(name, animal_type, age)
