@@ -18,6 +18,7 @@ def test_car():
     print("Brake")
     print("Car year model: ", car.get_year_model())
     print("Car is made of: ", car.get_make())
+    print("Speed")
     for _ in range(5):
         car.brake()
         print("Current speed:", car.get_speed())
