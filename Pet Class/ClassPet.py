@@ -6,3 +6,7 @@ class Pet:
         self.__name = name
         self.__animal_type = animal_type
         self.__age = age
+
+    # Create accessor (getter) method for name
+    def get_name(self):
+        return self.__name
