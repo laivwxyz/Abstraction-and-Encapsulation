@@ -38,3 +38,7 @@ class Car:
     # Create brake method
     def brake(self):
         self.__speed -= 5
+    
+    # Return the crurrent speed
+    def get_speed(self):
+        return self.__speed
