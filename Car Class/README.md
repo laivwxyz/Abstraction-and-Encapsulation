@@ -1,3 +1,4 @@
+![Screenshot (688)](https://github.com/laivwxyz/Abstraction-and-Encapsulation/assets/129714181/c4bfebff-4403-4f54-b288-9631439242b3)
 
 The `Car` class represents a car and provides methods to control its speed and retrieve the current speed.
 
@@ -10,6 +11,7 @@ The `Car` class has the following data attributes:
 - `__make`: The make of the car.
 
 - `__speed`: The car's current speed.
+  
 
 The class provides the following methods:
 
@@ -33,17 +35,19 @@ To run this program, you need to have Python installed on your system.
 
 ### Usage
 
-1. Clone the repository or download the script ClassCar.py.
+1. Clone the repository or download the script `ClassCar.py` and `TestCar.py`.
 
 2. Open your terminal or command prompt and navigate to the directory where the script is located.
 
-3. Run the script using the command: `python ClassCar.py`.
+3. Run the script using the command: `python TestCar.py`.
 
 4. The program will output the current speed of the car after each acceleration and braking action.
 
 ### Sample Output
 
 The output of the test program will display the year model, make, and speed of the `Car` objects.
+
+![Screenshot (688-1)](https://github.com/laivwxyz/Abstraction-and-Encapsulation/assets/129714181/090b9b9c-b0d2-4963-af37-1361713c9bc0)
 
 ## CONTRIBUTE
 
