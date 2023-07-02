@@ -1,6 +1,6 @@
 ![Screenshot (680)](https://github.com/laivwxyz/Abstraction-and-Encapsulation/assets/129714181/4aade213-c9fd-44f8-910c-6e6c723d8825)
 
-The `Fan` class represents a fan and provides methods to control its properties such as speed, on/off state, radius, and color.
+The `Fan` class represents a fan and provides methods to control its properties such as speed, on, radius, and color.
 
 ## GETTING STARTED
 
