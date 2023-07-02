@@ -10,3 +10,7 @@ class Pet:
     # Create accessor (getter) method for name
     def get_name(self):
         return self.__name
+    
+    # Create mutator (setter) method for name
+    def set_name(self, name):
+        self.__name = name
