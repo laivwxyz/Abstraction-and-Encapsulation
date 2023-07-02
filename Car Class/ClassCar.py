@@ -14,3 +14,7 @@ class Car:
     # Create mutator (setter) method for year model
     def set_year_model(self, year_model): 
         self.__year_model = year_model
+
+    # Create accessor (getter) method for make
+    def get_make(self):
+        return self.__make
